@@ -30,5 +30,7 @@ const c = 'false'; // Aqui é uma string e é avaliado como verdadeiro
 const d = false;
 const e = NaN;
 
-console.log(a|| b ||' joão '|| c || d || e);
+console.log(a|| b || c || d || e);
+
+console.log(a|| b ||' joão '|| c || d || e); //retornará o primeiro valor verdadeiro (true)
 
