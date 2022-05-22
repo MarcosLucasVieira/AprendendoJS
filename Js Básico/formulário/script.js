@@ -22,7 +22,7 @@ function myScope() { /* criamos uma função para envolver tudo */
 
         results.innerHTML+=`<p> ${name.value} ${surname.value} ${weight.value} ${height.value} </p>`;// mostrando os dados na tela 
     }
-    form.addEventListener('submit', receiveEventForm); //tiramos a atualização da pagina automatica.
+    form.addEventListener('submit', receiveEventForm); 
 
 }
 

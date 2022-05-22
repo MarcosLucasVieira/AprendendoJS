@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 :root {
   --primary-color: rgb(17, 86, 102);
   --primary-color-darker: rgb(9, 48, 56);
@@ -14,8 +15,8 @@ body {
   padding: 0;
   background: var(--primary-color);
   font-family: 'Open sans', sans-serif;
-  font-size: 1.3em;
-  line-height: 1.5em;
+  font-size: 1.3rem;
+  line-height: 2rem;
 }
 
 .container {
@@ -24,7 +25,38 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 16rem;
 }
+.firstTable{
+  display: inline-block;
+  margin:50px auto ;
+  margin-left: 40px auto;
+  margin-right: 40px auto;
+
+}
+.secondTable{
+  display: inline-block;
+  margin-top: 6.5rem;
+  margin-right: 5rem;
+  float: right;
+}
+.weight{
+ width: 37rem;  
+ border-radius: 10px;
+ margin-left: auto;
+ margin-right: 2,5rem;
+ float:left;
+}
+.height{
+  width: 37rem;  
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: 2,5rem;
+  float:left;
+  margin-bottom: 0,2rem;
+}
+
 
 form input, form label, form button {
   display: block;
